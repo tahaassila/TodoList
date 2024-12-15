@@ -1,0 +1,29 @@
+.app{
+  border: 1px solid #3d3d3d;
+  margin:   50px 30px;
+  padding: 25px 15px ;
+
+}
+
+.todolist{
+  display: flex;
+flex-direction: column;
+
+}
+.todolist ul li{
+  width: 180px;
+  overflow-wrap: break-word;
+list-style-type: '➡️';
+  cursor: pointer;
+}
+.done{
+ text-decoration: line-through;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span{
+  cursor: pointer;
+}
